@@ -1,27 +1,60 @@
 #body{
-    background-color: rgba(239, 239, 244, 0.74);
+    background-color: rgba(255, 255, 255, 0.74);
 }
 .relative {
     position: relative;
+    top: 10px;
     left: 30px;
     border: 3px solid #73AD21;
-    width: 500px;
+    width: 300px;
+}
+.relative p{
+    margin: 0px;
+    padding: 0 5px 0 5px;
+    text-align: justify;
+}
+.relative h2{
+  margin: 0px;
+  padding: 5px 0 5px 0;
 }
 .relative img{
     width: 300px;
 }  
-  .fixed {
+.fixed {
     position: fixed;
-    bottom: 300px;
-    right: 300px;
+    top: 18px;
+    left: 400px;
     width: 300px;
     border: 3px solid #73AD21;
-  }
-  .absolute {
+}
+.fixed img{
+    width: 300px;
+}
+.fixed p{
+    margin: 0px;
+    padding: 0 5px 0 5px;
+    text-align: justify;
+}
+.fixed h2{
+    margin: 0px;
+    padding: 5px 0 5px 0;
+}
+.absolute {
     position: absolute;
-    top: 80px;
-    right: 0;
-    width: 200px;
-    height: 100px;
+    left: 38px;
+    width: 300px;
+    margin-top: 50px;
     border: 3px solid #73AD21;
   }
+.absolute img{
+    width: 300px;
+}
+.absolute p{
+    margin: 0px;
+    padding: 0 5px 0 5px;
+    text-align: justify;
+}
+.absolute h2{
+    margin: 0px;
+    padding: 5px 0 5px 0;
+}
